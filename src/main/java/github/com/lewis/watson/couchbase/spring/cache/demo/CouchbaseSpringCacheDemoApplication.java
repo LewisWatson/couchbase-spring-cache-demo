@@ -8,9 +8,9 @@ import org.springframework.cache.annotation.EnableCaching;
 @EnableCaching
 public class CouchbaseSpringCacheDemoApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(CouchbaseSpringCacheDemoApplication.class, args);
-	}
+  public static void main(String[] args) {
+    SpringApplication.run(CouchbaseSpringCacheDemoApplication.class, args);
+  }
 
 }
 

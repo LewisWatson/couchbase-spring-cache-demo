@@ -5,16 +5,12 @@ import org.springframework.stereotype.Component;
 import lombok.Data;
 
 @Component
-@ConfigurationProperties(prefix = "demo")
+@ConfigurationProperties(prefix = "dog-cache", ignoreInvalidFields = false,
+    ignoreUnknownFields = false)
 @Data
-public class DogServiceProperties {
+public class DogCacheProperties {
 
-  private CacheProperties cache;
-  
-  @Data
-  public static class CacheProperties {
-    private String name;
-    private int timeToLiveSeconds;
-  }
-  
+  private String name;
+  private int timeToLiveSeconds;
+
 }
