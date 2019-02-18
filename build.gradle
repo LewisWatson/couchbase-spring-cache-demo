@@ -5,7 +5,7 @@ plugins {
 
 apply plugin: 'io.spring.dependency-management'
 
-group = 'github.com.lewis.watson'
+group = 'com.github.lewiswatson'
 version = '0.2.0-SNAPSHOT'
 sourceCompatibility = '1.8'
 

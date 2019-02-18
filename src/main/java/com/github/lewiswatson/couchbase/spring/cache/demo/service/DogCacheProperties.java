@@ -1,4 +1,4 @@
-package github.com.lewis.watson.couchbase.spring.cache.demo.service;
+package com.github.lewiswatson.couchbase.spring.cache.demo.service;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

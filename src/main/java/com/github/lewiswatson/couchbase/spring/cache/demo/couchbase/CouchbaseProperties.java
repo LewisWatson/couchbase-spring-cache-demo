@@ -1,4 +1,4 @@
-package github.com.lewis.watson.couchbase.spring.cache.demo.couchbase;
+package com.github.lewiswatson.couchbase.spring.cache.demo.couchbase;
 
 import java.util.List;
 import org.springframework.boot.context.properties.ConfigurationProperties;

@@ -7,7 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-N/A
+### Changed
+
+- change package name from `github.com.lewis.watson` to `com.github.lewiswatson`
 
 ## 0.0.1 2019-02-15
 

@@ -1,4 +1,4 @@
-package github.com.lewis.watson.couchbase.spring.cache.demo.couchbase;
+package com.github.lewiswatson.couchbase.spring.cache.demo.couchbase;
 
 import org.springframework.boot.autoconfigure.cache.CacheManagerCustomizer;
 import org.springframework.context.annotation.Bean;
@@ -8,7 +8,7 @@ import com.couchbase.client.java.Cluster;
 import com.couchbase.client.java.CouchbaseCluster;
 import com.couchbase.client.spring.cache.CacheBuilder;
 import com.couchbase.client.spring.cache.CouchbaseCacheManager;
-import github.com.lewis.watson.couchbase.spring.cache.demo.service.DogCacheProperties;
+import com.github.lewiswatson.couchbase.spring.cache.demo.service.DogCacheProperties;
 
 @Configuration
 public class CouchbaseCacheConfig {

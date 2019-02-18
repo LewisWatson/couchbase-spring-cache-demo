@@ -1,4 +1,4 @@
-package github.com.lewis.watson.couchbase.spring.cache.demo.model;
+package com.github.lewiswatson.couchbase.spring.cache.demo.model;
 
 import java.io.Serializable;
 import lombok.Builder;

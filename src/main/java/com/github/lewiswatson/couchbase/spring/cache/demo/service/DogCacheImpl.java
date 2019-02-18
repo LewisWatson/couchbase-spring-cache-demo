@@ -1,9 +1,9 @@
-package github.com.lewis.watson.couchbase.spring.cache.demo.service;
+package com.github.lewiswatson.couchbase.spring.cache.demo.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.CacheManager;
 import org.springframework.stereotype.Component;
-import github.com.lewis.watson.couchbase.spring.cache.demo.model.Dog;
+import com.github.lewiswatson.couchbase.spring.cache.demo.model.Dog;
 
 @Component
 public class DogCacheImpl implements DogCache {

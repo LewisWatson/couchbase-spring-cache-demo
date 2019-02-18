@@ -1,4 +1,4 @@
-package github.com.lewis.watson.couchbase.spring.cache.demo;
+package com.github.lewiswatson.couchbase.spring.cache.demo;
 
 import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.assertj.core.api.Assertions.assertThat;
@@ -11,9 +11,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.cache.Cache;
 import org.springframework.cache.CacheManager;
 import org.springframework.test.context.junit4.SpringRunner;
-import github.com.lewis.watson.couchbase.spring.cache.demo.model.Dog;
-import github.com.lewis.watson.couchbase.spring.cache.demo.service.DogCache;
-import github.com.lewis.watson.couchbase.spring.cache.demo.service.DogCacheProperties;
+import com.github.lewiswatson.couchbase.spring.cache.demo.model.Dog;
+import com.github.lewiswatson.couchbase.spring.cache.demo.service.DogCache;
+import com.github.lewiswatson.couchbase.spring.cache.demo.service.DogCacheProperties;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
